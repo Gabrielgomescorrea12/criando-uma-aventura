@@ -5,4 +5,5 @@ avanca.forEach(button => {
         const proximoPasso = 'paso-' + this.getAttribute('data-proximo');
         atual.classList.remove('ativo');
         ducument.getElementByid(proximoPasso).classList.add('ativo');
-        
+    })
+})
